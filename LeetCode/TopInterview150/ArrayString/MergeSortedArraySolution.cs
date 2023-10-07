@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TopInterview150.ArrayString
 {
-    public class MergeSortedArray
+    public class MergeSortedArraySolution
     {
         public void Merge(int[] nums1, int m, int[] nums2, int n)
         {

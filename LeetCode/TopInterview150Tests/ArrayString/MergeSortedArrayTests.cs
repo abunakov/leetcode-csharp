@@ -20,7 +20,7 @@ namespace TopInterview150.ArrayString.Tests
             const int n = 3;
             int[] expected = { 1, 2, 2, 3, 5, 6 };
 
-            var solution = new MergeSortedArray();
+            var solution = new MergeSortedArraySolution();
             solution.Merge(nums1, m, nums2, n);
 
             Assert.IsTrue(Enumerable.SequenceEqual(expected, nums1));
@@ -35,7 +35,7 @@ namespace TopInterview150.ArrayString.Tests
             const int n = 0;
             int[] expected = { 1 };
 
-            var solution = new MergeSortedArray();
+            var solution = new MergeSortedArraySolution();
             solution.Merge(nums1, m, nums2, n);
 
             Assert.IsTrue(Enumerable.SequenceEqual(expected, nums1));
@@ -50,7 +50,7 @@ namespace TopInterview150.ArrayString.Tests
             const int n = 1;
             int[] expected = { 1 };
 
-            var solution = new MergeSortedArray();
+            var solution = new MergeSortedArraySolution();
             solution.Merge(nums1, m, nums2, n);
 
             Assert.IsTrue(Enumerable.SequenceEqual(expected, nums1));
